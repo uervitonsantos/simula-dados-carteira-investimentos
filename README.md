@@ -1,2 +1,3 @@
 # simula-dados-carteira-investimentos
-Gerar dados simulados de compra e venda de ações e salvá-los em um arquivo CSV
+
+O objetivo principal desse código é simular uma carteira de investimentos com base em uma estratégia de Buy and Hold, onde um investidor realiza aportes mensais de até R$ 5.000,00 na compra de ações de uma empresa específica ao longo de cinco anos. A cada mês, é registrado no máximo um evento de compra ou venda, sendo que a maior parte dos eventos corresponde a compras, respeitando a ideia de acumular patrimônio ao longo do tempo. As vendas são permitidas apenas em momentos em que o preço do ativo está pelo menos 10% acima da média dos últimos 12 meses, caracterizando uma oportunidade de lucro. As quantidades compradas são ajustadas automaticamente para nunca ultrapassar o valor máximo de aporte mensal. Após gerar os dados simulados, o código também constrói visualizações usando matplotlib e seaborn.
